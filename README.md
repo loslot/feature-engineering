@@ -148,7 +148,7 @@ All results use the same pipeline (`StandardScaler` + K-Means, k = 2, `random_st
 | Precision (Pass) | 0.941 | 0.876 | −0.065 |
 | Recall (Pass) | 0.774 | 0.890 | +0.116 |
 
-![Before vs After](comparison_accuracy_silhouette.png)
+![Before vs After](output/comparison_accuracy_silhouette.png)
 
 ### 4.2 Confusion matrix
 
@@ -179,7 +179,7 @@ Each combination of the new features was tested with the Step 4 removals applied
 
 *Full results for every combination, with and without removals, are in `comparison_three_features.csv`.*
 
-![Three-feature comparison](comparison_three_features.png)
+![Three-feature comparison](output/comparison_three_features.png)
 
 **Findings**
 
