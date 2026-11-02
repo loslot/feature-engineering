@@ -160,7 +160,7 @@ All results use the same pipeline (`StandardScaler` + K-Means, k = 2, `random_st
 | FN | 88 | 43 | −45 | lower |
 | **Correct (TP + TN)** | **493** | **508** | **+15** | higher |
 
-![Confusion matrices](comparison_confusion_matrix.png)
+![Confusion matrices](output/comparison_confusion_matrix.png)
 
 **Interpretation.** Before engineering, the model was cautious about calling anyone Pass (high precision, low recall). After engineering it finds many more passing students (FN 88 → 43) at the cost of wrongly labelling more failing students as Pass (FP 19 → 49). The net effect is 15 additional correct students and a more balanced precision/recall trade-off.
 
