@@ -1,5 +1,3 @@
-# feature-engineering
-
 # Feature Engineering for Unsupervised Pass/Fail Clustering of Student Performance
 
 **Author:** Los
