@@ -1,0 +1,5 @@
+,Before,After,Change (After - Before),Good or bad?
+TP,302,347,45,more is better
+TN,191,161,-30,more is better
+FP,19,49,30,fewer is better
+FN,88,43,-45,fewer is better

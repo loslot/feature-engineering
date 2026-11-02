@@ -1,0 +1,9 @@
+Feature set,# features,TP,TN,FP,FN,Accuracy,Silhouette,Acc. change vs Before,Sil. change vs Before
+Before (original 6),6,302,191,19,88,0.822,0.295,0.0,0.0
+engagement_score,6,289,192,18,101,0.802,0.31,-0.02,0.015
+risk_count,7,339,176,34,51,0.858,0.312,0.036,0.017
+sleep_deviation,6,299,192,18,91,0.818,0.295,-0.004,0.0
+engagement_score + risk_count,7,339,168,42,51,0.845,0.33,0.023,0.035
+engagement_score + sleep_deviation,6,283,193,17,107,0.793,0.308,-0.029,0.013
+risk_count + sleep_deviation,7,340,173,37,50,0.855,0.315,0.033,0.02
+engagement_score + risk_count + sleep_deviation  (FINAL),7,347,161,49,43,0.847,0.338,0.025,0.043

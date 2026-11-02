@@ -1,0 +1,5 @@
+Scenario,TP,TN,FP,FN,Accuracy,Silhouette,Accuracy change vs no-log,Silhouette change vs no-log
+Before,302,191,19,88,0.822,0.295,,
+Before + log1p(absences),263,201,9,127,0.773,0.297,-0.048,0.002
+After,347,161,49,43,0.847,0.338,,
+After + log1p(absences),343,165,45,47,0.847,0.319,0.0,-0.019

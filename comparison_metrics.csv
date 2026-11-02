@@ -1,0 +1,5 @@
+,Before,After,Change,Better?
+Accuracy,0.822,0.847,0.025,Better
+Precision (Pass),0.941,0.876,-0.065,Worse
+Recall (Pass),0.774,0.89,0.115,Better
+Silhouette,0.295,0.338,0.043,Better

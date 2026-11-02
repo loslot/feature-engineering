@@ -1,0 +1,5 @@
+Scenario,TP,TN,FP,FN,Accuracy,Precision (Pass),Recall (Pass),Silhouette
+Before,302,191,19,88,0.822,0.941,0.774,0.295
+Before + log1p(absences),263,201,9,127,0.773,0.967,0.674,0.297
+After,347,161,49,43,0.847,0.876,0.89,0.338
+After + log1p(absences),343,165,45,47,0.847,0.884,0.879,0.319
